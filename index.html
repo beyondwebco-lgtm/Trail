@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diet Soda | Pure Zero Refreshment</title>
+<meta name="description" content="Experience the crisp, clean taste of Diet Soda. Zero sugar, zero compromise.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Inter:wght@400;500&family=Manrope:wght@400;700&family=Galada&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bubbles-container"></div>
+    
+    <header class="header" id="navbar">
+        <a href="#home" class="logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+                <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <span>Soda</span>
+        </a>
+        <nav class="nav glass">
+            <a href="#home" class="nav-item active">Home</a>
+            <a href="#ingredients" class="nav-item">Ingredients</a>
+            <a href="#taste" class="nav-item">Taste</a>
+            <a href="#eco" class="nav-item">Eco</a>
+            <a href="#reviews" class="nav-item">Reviews</a>
+        </nav>
+        <a href="#shop" class="contact-btn">Contact Us</a>
+    </header>
+
+    <main>
+<section id="home" class="hero">
+            <div class="hero-content">
+                <div class="leaves-container">
+                    <model-viewer class="leaf l1" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/leaves.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="45deg 75deg 105%"></model-viewer>
+                    <model-viewer class="leaf l2" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/leaves.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="-30deg 60deg 105%"></model-viewer>
+                    <model-viewer class="leaf l3" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/leaves.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="120deg 85deg 105%"></model-viewer>
+                    <model-viewer class="leaf l4" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/leaves.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="10deg 45deg 105%"></model-viewer>
+                </div>
+                
+                <div class="hero-left">
+                    <h1 class="main-title large-animation-1">
+                        <span class="outline">Pure</span><br>
+                        Zero
+                    </h1>
+                    <p class="description">
+                        Unleash the crisp taste of zero sugar. <br>
+                        Refreshment redefined in every bubble — <br>
+                        all in one sleek design.
+                    </p>
+                    <div class="cta-group">
+                        <a href="#shop" class="primary-btn" style="text-decoration: none;">
+                            Shop Now
+                            <span class="plus-icon">+</span>
+                        </a>
+                    </div>
+                    <a href="#ingredients" class="scroll-indicator">
+                        <div class="scroll-mouse">
+                            <div class="scroll-wheel"></div>
+                        </div>
+                        <div class="scroll-text">
+                            <span class="scroll-title">SCROLL DOWN</span>
+                            <span class="scroll-subtitle">TO EXPLORE</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="berries-container-bg">
+                    <model-viewer class="berry b7" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="-20deg 110deg 105%"></model-viewer>
+                    <model-viewer class="berry b8" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="160deg 45deg 105%"></model-viewer>
+                    <model-viewer class="berry b9" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.0" interaction-prompt="none" camera-orbit="45deg 20deg 105%"></model-viewer>
+                </div>
+
+                <div class="hero-center">
+                    <model-viewer id="product-model" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/deit_soda2.glb" alt="Diet Soda 3D Model" camera-controls
+                        disable-zoom shadow-intensity="0" environment-image="neutral" exposure="1.5"
+                        interaction-prompt="none" camera-orbit="0deg 90deg 380%" field-of-view="30deg"
+                        class="main-product-3d">
+                    </model-viewer>
+                </div>
+
+                <div class="berries-container">
+                    <model-viewer class="berry b1" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.2" interaction-prompt="none" camera-orbit="45deg 120deg 105%"></model-viewer>
+                    <model-viewer class="berry b2" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.2" interaction-prompt="none" camera-orbit="-120deg 45deg 105%"></model-viewer>
+                    <model-viewer class="berry b3" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.2" interaction-prompt="none" camera-orbit="200deg 90deg 105%"></model-viewer>
+                    <model-viewer class="berry b4" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.2" interaction-prompt="none" camera-orbit="10deg 20deg 105%"></model-viewer>
+                    <model-viewer class="berry b5" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.2" interaction-prompt="none" camera-orbit="-45deg 160deg 105%"></model-viewer>
+                    <model-viewer class="berry b6" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb" environment-image="neutral" exposure="1.2" interaction-prompt="none" camera-orbit="80deg 75deg 105%"></model-viewer>
+                </div>
+
+                <div class="hero-right">
+                    <div class="product-carousel">
+                        <div class="carousel-cards">
+                            <div class="card active" data-flavor="classic">
+                                <img src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/Green%20Soda.png" alt="Diet Classic">
+                                <div class="card-info">
+                                    <span>Diet Classic</span>
+                                    <span>$2.99</span>
+                                </div>
+                            </div>
+                            <div class="card" data-flavor="blue">
+                                <img src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/Blue%20Soda.png" alt="Zero Lime" style="filter: brightness(0.7);">
+                                <div class="card-info">
+                                    <span>Zero Lime</span>
+                                    <span>$2.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nav">
+                            <button class="nav-arrow">←</button>
+                            <button class="nav-arrow">→</button>
+                        </div>
+                    </div>
+                    <h2 class="side-title large-animation-1">
+                        <span class="outline">Refreshingly</span><br>
+                        Clean
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+<section id="ingredients" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Nothing to Hide</h2>
+                <p class="section-subtitle">We believe refreshment shouldn't come with compromises. Discover what makes Diet Soda truly different.</p>
+            </div>
+            
+            <div class="grid-container">
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3 class="feature-title">Zero Sugar</h3>
+                    <p class="feature-desc">Experience maximum flavor without the sugar crash. Sweetened with natural alternatives that taste exactly like the real thing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍒</div>
+                    <h3 class="feature-title">Real Extracts</h3>
+                    <p class="feature-desc">Our flavors are derived from real fruits. No synthetic aftertastes, just crisp, authentic fruit notes in every sip.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🫧</div>
+                    <h3 class="feature-title">Perfect Carbonation</h3>
+                    <p class="feature-desc">Engineered for the optimal bubble size. Our micro-carbonation process ensures a smoother mouthfeel and longer-lasting fizz.</p>
+                </div>
+            </div>
+        </section>
+
+<section id="taste" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Two Distinct Profiles</h2>
+                <p class="section-subtitle">Choose your adventure. Whether you prefer the timeless classic or a zesty twist, we have a can for you.</p>
+            </div>
+            
+            <div class="taste-split">
+                <div class="taste-col" style="text-align: right;">
+                    <h3 style="font-family: var(--font-heading); font-size: 3rem; margin-bottom: 1rem;">Classic Cherry</h3>
+                    <p style="color: var(--muted-color); line-height: 1.6; margin-bottom: 2rem;">The iconic blend that started it all. Deep, rich cherry notes perfectly balanced with a proprietary cola spice blend. Best served ice cold.</p>
+                    <a href="#shop" class="primary-btn" style="margin-left: auto;">Buy Classic</a>
+                </div>
+                <div class="taste-col" style="display: flex; justify-content: center;">
+                    <img src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/Green%20Soda.png" alt="Classic Soda Can">
+                </div>
+            </div>
+            
+            <div class="taste-split" style="margin-top: 6rem; flex-direction: row-reverse;">
+                <div class="taste-col" style="text-align: left;">
+                    <h3 style="font-family: var(--font-heading); font-size: 3rem; margin-bottom: 1rem; color: #60a5fa;">Zero Lime</h3>
+                    <p style="color: var(--muted-color); line-height: 1.6; margin-bottom: 2rem;">A refreshing citrus twist on the original. Bright, zesty lime cuts through the richness for a lighter, sharper taste profile.</p>
+                    <a href="#shop" class="primary-btn">Buy Zero Lime</a>
+                </div>
+                <div class="taste-col" style="display: flex; justify-content: center;">
+                    <img src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/Blue%20Soda.png" alt="Zero Lime Can" style="filter: brightness(0.8);">
+                </div>
+            </div>
+        </section>
+
+<section id="eco" class="content-section">
+            <div class="eco-banner">
+                <h2 class="section-title" style="margin-bottom: 2rem;">Refreshingly Green</h2>
+                <p style="font-size: 1.2rem; line-height: 1.8; color: rgba(255,255,255,0.9); max-width: 800px; margin: 0 auto 3rem;">
+                    We are committed to the planet just as much as we are to flavor. Every Diet Soda can is made from 100% recycled aluminum and is infinitely recyclable. 
+                    Furthermore, our entire supply chain achieved carbon neutrality in 2024.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+                    <div>
+                        <div style="font-size: 3rem; font-weight: 700; font-family: var(--font-heading-sans); color: #fbcfe8;">100%</div>
+                        <div style="color: var(--muted-color); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem;">Recycled Materials</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 3rem; font-weight: 700; font-family: var(--font-heading-sans); color: #fbcfe8;">Net Zero</div>
+                        <div style="color: var(--muted-color); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem;">Carbon Footprint</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 3rem; font-weight: 700; font-family: var(--font-heading-sans); color: #fbcfe8;">0</div>
+                        <div style="color: var(--muted-color); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem;">Plastic Used</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="reviews" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">What They're Saying</h2>
+                <p class="section-subtitle">Don't just take our word for it. See why millions have made the switch to Pure Zero Refreshment.</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">"I've tried every diet soda on the market, and this is by far the best. The cherry flavor is so natural and there's absolutely no weird aftertaste."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background: #333;"></div>
+                        <div>
+                            <div style="font-weight: 700;">Sarah Jenkins</div>
+                            <div style="color: var(--muted-color); font-size: 0.8rem;">Verified Buyer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">"The Zero Lime is incredibly refreshing. It's become my go-to afternoon pick-me-up. Plus, I love the sleek can design!"</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background: #555;"></div>
+                        <div>
+                            <div style="font-weight: 700;">Michael Chen</div>
+                            <div style="color: var(--muted-color); font-size: 0.8rem;">Verified Buyer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">"Finally, a company that cares about the environment AND makes a great product. The carbonation is perfect and it tastes amazing."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background: #777;"></div>
+                        <div>
+                            <div style="font-weight: 700;">Elena Rodriguez</div>
+                            <div style="color: var(--muted-color); font-size: 0.8rem;">Verified Buyer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="shop" class="content-section" style="min-height: 50vh; text-align: center; justify-content: center;">
+            <h2 class="section-title">Ready for Pure Refreshment?</h2>
+            <p class="section-subtitle" style="margin-bottom: 3rem;">Subscribe today and get 15% off your first 12-pack case.</p>
+            
+            <form style="display: flex; max-width: 500px; margin: 0 auto; gap: 1rem; width: 100%; padding: 0 20px;">
+                <input type="email" placeholder="Enter your email address" required style="flex: 1; padding: 1rem 1.5rem; border-radius: 100px; border: 1px solid var(--glass-border); background: var(--glass-bg); color: white; outline: none; font-family: var(--font-main);">
+                <button type="submit" class="primary-btn" style="border-radius: 100px;">Subscribe</button>
+            </form>
+        </section>
+</main>
+
+    <footer>
+        <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+                <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <span>Soda</span>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#ingredients">Ingredients</a>
+            <a href="#taste">Taste</a>
+            <a href="#eco">Eco</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#shop">Contact</a>
+        </div>
+        <p style="color: var(--muted-color); font-size: 0.8rem;">&copy; 2025 Diet Soda Inc. All rights reserved. Fictional project.</p>
+    </footer>
+
+    <svg style="position: absolute; width: 0; height: 0; opacity: 0; pointer-events: none;">
+        <filter id="frosted">
+            <feTurbulence type="fractalNoise" baseFrequency="0.0125" numOctaves="3" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="80" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+    </svg>
+    <div style="display: none;">
+        <model-viewer src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/blueberry.glb"></model-viewer>
+        <model-viewer src="https://api.getlayers.ai/storage/v1/object/public/public/assets/soda-14ff8a788d/cherry.glb"></model-viewer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
